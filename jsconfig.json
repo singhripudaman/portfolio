@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "@components/*": ["./components/*"]
+    }
+  },
+  "include": ["src/**/*.js", "src/**/*.vue", "components/**/*.js", "components/**/*.vue"],
+  "exclude": ["node_modules", "dist"]
+}
