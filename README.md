@@ -1,35 +1,85 @@
-# portfolio_website
+# Portfolio Website
 
-This template should help get you started developing with Vue 3 in Vite.
+A modern, responsive personal portfolio website built with Vue 3 and Vite. This website serves as a showcase for your projects, skills, and professional experience.
 
-## Recommended IDE Setup
+## 🌟 Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Modern and responsive design
+- Dynamic project showcase
+- Skills and technologies section
+- Professional experience timeline
+- Contact form
+- Dark/Light mode toggle
+- Fast loading and optimized performance
 
-## Customize configuration
+## 🛠️ Tech Stack
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- **Frontend Framework:** Vue 3
+- **Build Tool:** Vite
+- **Styling:** CSS/SCSS
+- **Linting:** ESLint
+- **Package Manager:** npm
+- **Deployment:** Ready for deployment on platforms like Vercel, Netlify, or GitHub Pages
 
-## Project Setup
+## 📋 Prerequisites
 
-```sh
-npm install
+Before you begin, ensure you have the following installed:
+
+- Node.js (v14.x or higher)
+- npm (v6.x or higher)
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+
+   ```sh
+   git clone https://github.com/singhripudaman/portfolio.git
+   cd portfolio_website
+   ```
+
+2. **Install dependencies**
+
+   ```sh
+   npm install
+   ```
+
+3. **Start development server**
+
+   ```sh
+   npm run dev
+   ```
+
+   The site will be available at `http://localhost:5173`
+
+4. **Build for production**
+
+   ```sh
+   npm run build
+   ```
+
+   This will generate optimized files in the `dist` directory.
+
+5. **Lint your code**
+   ```sh
+   npm run lint
+   ```
+
+## 📁 Project Structure
+
+```
+portfolio_website/
+├── public/          # Static assets
+├── src/             # Source files
+│   ├── assets/      # Images and styles
+│   ├── components/  # Vue components
+│   └── App.vue      # Root component
+├── index.html       # Entry HTML file
+└── vite.config.js   # Vite configuration
 ```
 
-### Compile and Hot-Reload for Development
+## 🎨 Customization
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+1. Update the content in `src/components` to add your personal information
+2. Modify styles in the assets directory
+3. Add your projects in the projects section
+4. Customize the color scheme and theme

@@ -1,7 +1,7 @@
 const skills = [
   {
     category: 'Languages',
-    items: ['Python', 'Java', 'JavaScript', 'C/C++', 'SQL', 'HTML/CSS', 'Go', 'R'],
+    items: ['Python', 'Java', 'JavaScript', 'C/C++', 'SQL', 'HTML/CSS', 'Go', 'R', 'TypeScript'],
   },
   {
     category: 'Frameworks & Libraries',
@@ -18,6 +18,9 @@ const skills = [
       'SFML',
       'SocketIO',
       'Tailwind',
+      'Chakra UI',
+      'Node.js',
+      'MongoDB',
     ],
   },
   {

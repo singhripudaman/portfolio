@@ -14,8 +14,8 @@ const projects = [
     ],
     image: 'https://placehold.co/300x200/333/white/png',
     links: {
-      github: 'https://github.com/yourusername/marvel-rivals-bot',
-      demo: 'https://discord.com/api/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=0&scope=bot',
+      github: 'https://github.com/singhripudaman/marvel_rivals_discord_bot',
+      demo: '',
     },
   },
   {
@@ -25,7 +25,8 @@ const projects = [
     technologies: ['Python', 'matplotlib', 'opencv', '3D Slicer', 'tobii'],
     image: 'https://placehold.co/300x200/333/white/png',
     links: {
-      github: 'https://github.com/yourusername/honours-thesis',
+      github: '',
+      demo: '',
     },
   },
   {
@@ -35,8 +36,8 @@ const projects = [
     technologies: ['C++', 'SFML', 'ImGUI'],
     image: 'https://placehold.co/300x200/333/white/png',
     links: {
-      github: 'https://github.com/yourusername/bubblegum-bloodbath',
-      demo: 'https://yourusername.itch.io/bubblegum-bloodbath',
+      github: '',
+      demo: 'https://www.youtube.com/watch?v=APVTMvT-CXE',
     },
   },
   {
@@ -46,8 +47,8 @@ const projects = [
     technologies: ['ExpressJS', 'Flask', 'MongoDB', 'OpenAI API', 'React', 'RAG'],
     image: 'https://placehold.co/300x200/333/white/png',
     links: {
-      github: 'https://github.com/yourusername/medisync-ai',
-      demo: 'https://medisync-ai.vercel.app',
+      github: '',
+      demo: 'https://www.youtube.com/watch?v=0E2VGkUw9dQ',
     },
   },
   {
@@ -57,8 +58,8 @@ const projects = [
     technologies: ['ThreeJS', 'JavaScript'],
     image: 'https://placehold.co/300x200/333/white/png',
     links: {
-      github: 'https://github.com/yourusername/maze-escape',
-      demo: 'https://maze-escape.vercel.app',
+      github: 'https://github.com/singhripudaman/three-js-game',
+      demo: 'https://policemazegame.netlify.app',
     },
   },
   {
@@ -68,7 +69,8 @@ const projects = [
     technologies: ['ExpressJS', 'MongoDB', 'EJS', 'Mocha', 'Tailwind'],
     image: 'https://placehold.co/300x200/333/white/png',
     links: {
-      github: 'https://github.com/yourusername/course-selection',
+      github: 'https://github.com/MUN-COMP3100/self-service',
+      demo: 'https://www.youtube.com/watch?v=jmOUzrdpF6I',
     },
   },
   {
@@ -78,8 +80,29 @@ const projects = [
     technologies: ['React-Native', 'Firebase'],
     image: 'https://placehold.co/300x200/333/white/png',
     links: {
-      github: 'https://github.com/yourusername/dining-hall-app',
-      demo: 'https://play.google.com/store/apps/details?id=com.dininghall',
+      github: 'https://github.com/Curtis-Idiots/MunCampusDish-App',
+      demo: '',
+    },
+  },
+  {
+    name: 'Portfolio Website',
+    description: 'A responsive personal portfolio website built with Vue.js and Tailwind CSS',
+    technologies: ['Vue.js', 'Tailwind CSS', 'JavaScript'],
+    image: 'https://placehold.co/300x200/333/white/png',
+    links: {
+      github: 'https://github.com/singhripudaman/portfolio',
+      demo: 'https://ripu.dev',
+    },
+  },
+  {
+    name: 'Car Rental Full Stack',
+    description:
+      'A full-stack car rental application with user authentication, vehicle management, and booking system',
+    technologies: ['TypeScript', 'React', 'Chakra UI', 'Node.js', 'Express', 'MySQL'],
+    image: 'https://placehold.co/300x200/333/white/png',
+    links: {
+      github: 'https://github.com/hamoodev/comp4754',
+      demo: '',
     },
   },
 ]
