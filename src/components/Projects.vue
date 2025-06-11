@@ -1,19 +1,24 @@
 <template>
-  <div id="projects" class="max-w-4xl mx-auto text-white">
+  <div id="projects" class="max-w-[90rem] mx-auto text-white scroll-mt-24">
     <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 md:mb-8 text-center">Projects</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
       <div
         v-for="project in projects"
         :key="project.name"
-        class="bg-[#222] p-4 md:p-6 rounded-lg transform hover:scale-105 transition-transform duration-300 flex flex-col"
+        class="bg-[#222] p-4 md:p-8 rounded-lg transform hover:scale-105 transition-transform duration-300 flex flex-col"
       >
-        <div class="w-full h-40 rounded-lg mb-4 bg-gray-700 overflow-hidden">
-          <img
-            :src="project.image"
-            :alt="project.name"
-            class="w-full h-full object-cover"
-            @error="$event.target.style.display = 'none'"
-          />
+        <div class="w-full h-80 rounded-lg mb-4 bg-gray-700 overflow-hidden">
+          <template v-if="project.image">
+            <img
+              v-show="!imageError[project.name]"
+              :src="project.image"
+              :alt="project.name"
+              class="w-full h-full object-cover"
+              @error="handleImageError(project.name)"
+            />
+            <NoImage v-show="imageError[project.name]" />
+          </template>
+          <NoImage v-else />
         </div>
         <h3 class="text-lg md:text-xl font-semibold mb-3 md:mb-4">{{ project.name }}</h3>
         <p class="text-sm md:text-base flex-grow">{{ project.description }}</p>
@@ -57,12 +62,20 @@
 
 <script setup>
 import projects from '../assets/projects'
+import { ref } from 'vue'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEye } from '@fortawesome/free-solid-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
+import NoImage from './NoImage.vue'
 
 library.add(faGithub, faEye)
+
+const imageError = ref({})
+
+const handleImageError = (projectName) => {
+  imageError.value[projectName] = true
+}
 
 defineOptions({
   name: 'ProjectsSection',

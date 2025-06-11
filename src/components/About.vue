@@ -1,5 +1,5 @@
 <template>
-  <div id="about" class="max-w-4xl mx-auto text-white">
+  <div id="about" class="max-w-[90rem] mx-auto text-white scroll-mt-24">
     <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 md:mb-8 text-center">About Me</h2>
     <div class="space-y-4 md:space-y-6">
       <p class="text-sm sm:text-base md:text-lg leading-relaxed">
@@ -36,7 +36,7 @@
         <a
           href="/Ripudaman_Singh_Resume.pdf"
           download
-          class="text-center text-sm px-3 py-2 bg-sky-800 rounded-full hover:bg-sky-700 transition-colors"
+          class="text-center text-base px-5 py-3 bg-sky-800 rounded-full hover:bg-sky-700 transition-colors"
           aria-label="Download Resume"
         >
           Download Resume

@@ -1,5 +1,5 @@
 <template>
-  <div id="skills" class="max-w-4xl mx-auto text-white">
+  <div id="skills" class="max-w-[90rem] mx-auto text-white scroll-mt-24">
     <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 md:mb-8 text-center">Skills</h2>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8">
       <div

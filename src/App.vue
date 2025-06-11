@@ -20,12 +20,7 @@
     <!-- Hero Section -->
     <section class="relative min-h-screen">
       <!-- Particles Background -->
-      <vue-particles
-        id="tsparticles"
-        @particles-loaded="particlesLoaded"
-        :options="amongUs"
-        class="inset-0 z-10"
-      />
+      <vue-particles id="tsparticles" :options="amongUs" class="inset-0 z-10" />
 
       <!-- Main Content -->
       <div class="relative z-20 flex justify-center items-center h-screen px-4">
@@ -63,10 +58,6 @@ const isScrolled = ref(false)
 
 const handleScroll = () => {
   isScrolled.value = window.scrollY > 50
-}
-
-const particlesLoaded = (container) => {
-  console.log('Particles loaded:', container)
 }
 
 onMounted(() => {
