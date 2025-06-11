@@ -26,7 +26,7 @@ const projects = [
     image: '/honours_thesis.jpg',
     links: {
       github: '',
-      demo: '',
+      demo: 'https://singhripudaman.notion.site/',
     },
   },
   {
