@@ -8,12 +8,19 @@ const skills = [
     items: ['React', 'Vue', 'ExpressJS', 'FastAPI', 'Flask', 'Hono', 'SQLAlchemy', 'Drizzle'],
   },
   {
-    category: 'Infrastructure',
-    items: ['SST', 'AWS', 'Docker', 'Kubernetes', 'GitHub Actions'],
-  },
-  {
-    category: 'Observability',
-    items: ['Grafana LGTM Stack', 'Langfuse', 'Posthog', 'Sentry', 'Mixpanel'],
+    category: 'Infrastructure and Observability',
+    items: [
+      'SST',
+      'AWS',
+      'Docker',
+      'Kubernetes',
+      'GitHub Actions',
+      'Grafana LGTM Stack',
+      'Langfuse',
+      'Posthog',
+      'Sentry',
+      'Mixpanel',
+    ],
   },
 ]
 
