@@ -1,41 +1,19 @@
 const skills = [
   {
     category: 'Languages',
-    items: ['Python', 'Java', 'JavaScript', 'C/C++', 'SQL', 'HTML/CSS', 'Go', 'R', 'TypeScript'],
+    items: ['TypeScript', 'Python', 'C/C++', 'SQL', 'Go'],
   },
   {
     category: 'Frameworks & Libraries',
-    items: [
-      'React',
-      'Flask',
-      'ExpressJS',
-      'FastAPI',
-      'Pandas',
-      'NumPy',
-      'PyTorch',
-      'Matplotlib',
-      'SQLAlchemy',
-      'SFML',
-      'SocketIO',
-      'Tailwind',
-      'Chakra UI',
-      'Node.js',
-      'MongoDB',
-    ],
+    items: ['React', 'Vue', 'ExpressJS', 'FastAPI', 'Flask', 'Hono', 'SQLAlchemy', 'Drizzle'],
   },
   {
-    category: 'Tools & Platforms',
-    items: [
-      'CI/CD',
-      'Git',
-      'Github Actions',
-      'AWS',
-      'Jenkins',
-      'Docker',
-      'SVN',
-      'Jira',
-      'Confluence',
-    ],
+    category: 'Infrastructure',
+    items: ['SST', 'AWS', 'Docker', 'Kubernetes', 'GitHub Actions'],
+  },
+  {
+    category: 'Observability',
+    items: ['Grafana LGTM Stack', 'Langfuse', 'Posthog', 'Sentry', 'Mixpanel'],
   },
 ]
 
